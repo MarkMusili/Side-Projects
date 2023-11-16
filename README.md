@@ -13,6 +13,7 @@ The beginner tier focuses on foundational concepts of programming with basic fea
 
 ### Projects
 1. Color Flipper.
+2. To-do List.
 
 
 *This readme will be updated after I add new projects*

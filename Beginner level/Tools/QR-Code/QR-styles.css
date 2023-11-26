@@ -19,8 +19,14 @@ body{
 	flex-direction: column;
 	align-items: center;
 	width: 600px;
+	transition: ease-out 0.5s;
 }
 
+.container:hover{
+	transition: ease-in-out 0.5s;
+	box-shadow: 9px 13px 18px 12px rgba(0,0,0,0.75);
+	transform: translate(-1px,-20px);
+}
 .row{
 	width: 500px;
 	background: #ededed;
@@ -33,7 +39,7 @@ body{
 .text {
 	color: #fdf9ef;
 	font-size: 30px;
-	padding-bottom: 7px;
+	padding-bottom: 1px;
 }
 
 input {
@@ -46,6 +52,14 @@ input {
 
 .but {
 	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.txt {
+	color: #fdf9ef;
+	font-size: 30px;
 }
 
 button {
@@ -57,9 +71,12 @@ button {
 	color: #fdf9ef;
 	background-color: #393646;
 	cursor: pointer;
-	margin-bottom: 20px;
 }
 
 button:hover{
 	background-color:  #191625;
+}
+
+#qrcode {
+	padding-left: 10px;
 }

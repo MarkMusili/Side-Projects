@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	function generateQRcode() {
 		let QRbox = document.createElement('div');
 		QRbox.id = 'qrcode';
-
+		
 		let inputValue = link.value;
 
 		let qrcode = new QRCode(QRbox, {
